@@ -1,0 +1,5 @@
+.gitginore
+node_modules
+.env
+public
+.idea
