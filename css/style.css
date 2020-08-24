@@ -389,6 +389,12 @@ nav {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
+@media (max-width: 600px) {
+    .portfolio {
+        display: block;
+    }
+}
+
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
